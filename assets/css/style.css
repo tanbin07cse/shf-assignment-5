@@ -530,7 +530,7 @@ strike{
 
 }
 .sciencefiction{
-	padding-bottom: 15px !important;
+	padding-bottom: 34px !important;
 
 }
 .sfic1{
@@ -545,8 +545,130 @@ strike{
 }
 
 .sf-viewall{
+	background-color: #fff !important;
+	float: right;
+	border: 1px solid #0397d3;
+	color: #0397d3;
+	box-shadow: 0px 3px 6px -4px #a2a2a2;
+	padding: 8px 12px;
+	font-size: 15px;
+	margin: 15px 15px 0 0;
+	border-radius: 3px;
+}
+
+.sf-hover p:hover{
+	background-color: #0397d3 !important;
+	color: #fff;
+}
+
+
+.floatingbutton{
+    position: fixed;
+    top: 221px;
+    right: 20px;
+    width: 51px;
+    height: 88px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.img-float{
+	  position: fixed;
+    top: 244px;
+    right: 30px;
+}
+.booknum{
+
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #D64541;
+  position: fixed;
+  top: 235px;
+  right: 33px;
+  text-align: center;
+  font-size: 14px;
+}
+.float-title{
+	font-size: 15px;
+	/*font-weight: 500;*/
+	color: #333333;
+	margin: 58px 0 0 10px;
+  
+}
+.floatingbutton:hover{
+	color: #0397D3;
+}
+.float-title:hover{
+	color: #0397D3;
+}
+
+.mustread{
+	height: 260px;
+	background-color: #fff;
+}
+.must1{
+    width: 150px;
+    height: 128px;
+    background-image: url(../img/must1.png);
+    background-size: center;
+    background-repeat: no-repeat;
+    margin: 0px 0 0 42px;
+}
+.mustread-title{
+	margin: 132px 0 0 0px;
+}
+.must2{
+	background-image: url(../img/must2.png);
+}
+.must3{
+	background-image: url(../img/must3.png);
+}
+.must4{
+	text-align: center;
+	background-image: url(../img/must4.png);
 	
 }
+.title-4{
+	margin-left: -14px !important;
+}
+.must5{
+	background-image: url(../img/must5.png);
+}
+.must6{
+	background-image: url(../img/must6.png);
+}
+.title-6{
+	margin-left: 16px !important;
+}
+
+.must1:hover{
+	background-image: url(../img/must1zoom.png);
+	color: #0397D3;
+}
+
+.must2:hover{
+	background-image: url(../img/must2zoom.png);
+	color: #0397D3;
+}
+.must3:hover{
+	background-image: url(../img/must3zoom.png);
+	color: #0397D3;
+}
+.must4:hover{
+	background-image: url(../img/must4zoom.png);
+	color: #0397D3;
+}
+.must5:hover{
+	background-image: url(../img/must5zoom.png);
+	color: #0397D3;
+}
+.must6:hover{
+	background-image: url(../img/must6zoom.png);
+	color: #0397D3;
+}
+
+
 
 
 
@@ -578,15 +700,4 @@ strike{
 
 /************************************************
 				 Footer CSS Ends
-*************************************************/
-
-
-
-/************************************************
-				 CSS Start
-*************************************************/
-
-
-/************************************************
-				 CSS Ends
 *************************************************/
