@@ -5,7 +5,10 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Lato', sans-serif;
+	
+	font-family: 'SiyamRupali', sans-serif;
+  /*font-family: 'Kalpurush', sans-serif;
+  font-family: 'Lato', sans-serif;*/
 }
 a{
 	text-decoration: none;
@@ -23,6 +26,9 @@ li{
 .mainwidth{
 	width: 85%;
 	margin: auto !important;
+}
+.divjustify{
+	justify-content: space-between;
 }
 
 .divflex{
@@ -160,7 +166,7 @@ form.example::after {
 
 .header{
 	text-align: justify;
-	padding-top: 87px;
+	padding-top: 90px;
 }
 
 .mainmenu-ul a{
@@ -177,7 +183,7 @@ form.example::after {
 }
 
 .mainmenu-ul{
-	margin-left: 165px !important;
+	margin-left: 162px !important;
 	margin-right: 0 !important;
 }
 .giftfinder{
@@ -193,6 +199,8 @@ form.example::after {
 }
 .submenu-ul{
 	padding: 0 0 10px 0;
+	margin-left: 119px !important;
+    margin-right: 0 !important;
 
 
 }
@@ -209,7 +217,7 @@ form.example::after {
 }
 .fullbody{
 	width: 100%;
-	height: 5000px;
+	height: 3000px;
 	background-color: #F1F2F4;
 }
 
@@ -220,9 +228,325 @@ form.example::after {
 	top: 20px;
 }
 
+.img-bmenu1{
+	width: 359px;
+
+}
+.bannermenu{
+	justify-content: space-between;
+	padding: 40px 0 40px 0;
+}
+
+.recentsold{
+	justify-content: space-evenly;
+	height: 425px;
+	background-color: #fff;
+	margin-left: 5px;
+}
+
+.left-arrow{
+position: absolute;
+top: 752px;    
+font-size: 44px !important;
+padding: 18px 11px;
+color: #6e6f6f;
+border: 1px solid #f5f5f5;
+background-color: #fff;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+/*box-shadow: 3px 1px 5px #b9b9b9;*/
+z-index: 2;
+box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
+
+}
+.right-arrow{
+position: absolute;
+top: 752px;
+left: 89.8%;
+font-size: 44px !important;
+padding: 18px 11px;
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+color: #6e6f6f;
+border: 1px solid #f5f5f5;
+background-color: #fff;
+z-index: 1;
+/*box-shadow: -3px -1px 5px #b9b9b9;*/
+box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
+}
+
+.recentsold-title{
+
+	font-size: 24px;
+	font-weight: 500;
+	padding: 10px 0 0 10px;
+	margin-top: -15px;
+}
+.rsold1{
+	width: 16.3%;
+	height: 280px;
+  padding-bottom: 30px;
+  margin-left: 3px;
+	justify-content: center;
+	opacity: 1;
+
+}
+.onlyshadow{
+	opacity: 1;
+}
+.onlyshadow:hover{
+	opacity: 0.5;
+	box-shadow: grey;
+	background-color: white;
+	border: 1px solid #ebebeb;
+	transition: opacity 0.8s;
+	box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+	z-index: 0;
+}
+
+.rsold1 p{
+	margin: 0;
+}
+
+.img-rsold1{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+
+}
+
+.look-inside{
+	position: relative;
+	top: -69px;
+  left: 71px;
+}
+.badge-inside{
+	position: relative;
+	top: -215px;
+  left: -75px;
+}
+.bookname{
+	position: relative;
+	top: -59px;
+	font-size: 14px;
+	text-align: center;
+	color: #111111;
+
+}
+.name{
+	padding-bottom: 15px;
+}
+.author{
+	padding-bottom: 15px;
+}
+strike{
+	color: #666666;
+}
+
+.rsold1:hover{
 
 
+}
 
+
+.viewdetails{
+	display: none;
+	background-color: #0397D3;
+	position: relative;
+  top: -63px;
+  vertical-align: middle;
+  width: 100%;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  z-index: 1;
+  
+
+}
+.rsold1:hover .viewdetails{ 
+	display:block;
+	opacity: 1 !important;
+}
+.rsold1:hover .addtocart{ 
+	display:block;
+	opacity: 1 !important;
+}
+.addtocart{
+	display: none;
+	background-color: #FF9900;
+	position: relative;
+  top: -237px;
+  left: 28px;
+  width: 70%;
+  padding: 6px 15px 6px 15px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  z-index: 1;
+
+}
+.whichbook{
+	height: 210px;
+	background-color: #fff;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+
+}
+
+.which-title{
+	font-size: 26px;
+	font-weight: 500;
+	color: #333333;
+	margin-left: 15px;
+}
+
+.which-des{
+	font-size: 15px;
+	font-weight: 500;
+	color: #aaaaaa;
+}
+.segment-1{
+	height: 104px;
+	width: 158;
+	background-color: ;
+}
+
+.which-toptext{
+	position: relative;
+	top: -81px;
+	color: #fff;
+	left: 45px;
+
+}
+.whichbook-segment{
+	justify-content: space-evenly;
+}
+.text-block{
+	font-size: 15px;
+}
+
+.toptext2{
+	left: 28px !important;
+}
+.toptext3{
+	left: 27px !important;
+
+}
+.toptext4{
+	left: 3px !important;
+	top: -98px;
+	text-align: center;
+
+}
+.toptext5{
+	left: 0px !important;
+  top: -88px;
+  text-align: center;
+
+}
+.toptext6{
+	left: 2px !important;
+  top: -87px;
+  text-align: center;
+
+}
+
+.whichbookarrow{
+	top: 1099px !important;
+	/*box-shadow: 0px -1px 2px #b9b9b9;*/
+	box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
+}
+.button-5-1{
+	text-align: center;
+	/*width: 25%;*/
+  color: #333333;
+  display: inline-block;
+  padding: 21px 58px 21px 58px;
+  border: 1px solid #71cbf0;
+  background: #e3f3fa;
+  font-size: 16px;
+  border-radius: 5px;
+  background: linear-gradient(to left, #e3f3fa 50%, #0397d3 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+.button-5-1:hover{
+
+ background-position: left;
+}
+
+.button-5-1{
+	padding: 21px 55px 21px 55px !important;
+}
+
+.button-5-2{
+	padding: 21px 48px 21px 48px !important;
+}
+.button-5-3{
+	padding: 21px 55px 21px 55px !important;
+
+}
+.button-5-4{
+	padding: 21px 72px 21px 72px !important;
+
+}
+.button-5-5{
+	padding: 21px 18px 21px 18px !important;
+
+}
+.button-5-6{
+	padding: 21px 41px 21px 41px !important;
+
+}
+.button-5-7{
+	padding: 21px 56px 21px 56px !important;
+
+}
+.button-5-8{
+	padding: 21px 48px 21px 48px !important;
+
+}
+.button-5-9{
+	padding: 21px 43px 21px 43px !important;
+
+}
+.button-5-10{
+	padding: 21px 64px 21px 64px !important;
+
+}
+
+.row1{
+	justify-content: space-between;
+}
+
+.sokolbisoy{
+	padding: 0;
+	font-size: 24px !important;
+
+}
+.sciencefiction{
+	padding-bottom: 15px !important;
+
+}
+.sfic1{
+	width: 19.5% !important;
+}
+.sfarrow{
+	top: 1592px !important;
+}
+.sf-title{
+	font-weight: 500;
+	font-size: 22px !important;
+}
+
+.sf-viewall{
+	
+}
 
 
 
