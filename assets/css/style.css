@@ -138,12 +138,11 @@ form.example::after {
 	padding: 9px 12px 9px 12px;
 	border-radius: 3px 3px 3px 3px;
 	width: 80px;
-    height: 38px
-    color:  #464646;
-    font-size: 15px;
-    font-weight: 400;
-    margin-left: 15px;
-    /*margin-right: -16px;*/
+  height: 38px
+  color:  #464646;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 15px;
 
 }
 .giftbox{
@@ -178,7 +177,7 @@ form.example::after {
 
 }
 .mainmenu-ul-others{
-    position: relative;
+  position: relative;
 	top: 7px !important;
 }
 
@@ -200,7 +199,7 @@ form.example::after {
 .submenu-ul{
 	padding: 0 0 10px 0;
 	margin-left: 119px !important;
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 
 
 }
@@ -217,7 +216,7 @@ form.example::after {
 }
 .fullbody{
 	width: 100%;
-	height: 3000px;
+	height: 3500px;
 	background-color: #F1F2F4;
 }
 
@@ -533,7 +532,6 @@ strike{
 }
 .sciencefiction{
 	padding-bottom: 34px !important;
-	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
 
 }
 .sfic1{
@@ -594,7 +592,6 @@ strike{
 }
 .float-title{
 	font-size: 15px;
-	/*font-weight: 500;*/
 	color: #333333;
 	margin: 58px 0 0 10px;
   
@@ -676,8 +673,7 @@ strike{
     background-color: #fff;
     font-size: 14px;
     font-weight: 400;
-    width: 284px;
-    height: 33px;
+    height: 33px !important;
     color: #4D4D4D;
     text-align: center;
     padding-left: 10px;
@@ -689,9 +685,9 @@ strike{
     position: fixed;
     float: left; 
     left: 0; 
-    top: 290px;
+    top: 271px;
     left: -134px;
-    padding-top: 20px;
+    padding-top: 40px;
     box-shadow: 0 0 5px #cfcfcf;
 }
 
@@ -753,6 +749,7 @@ strike{
 	font-size: 22px;
 	color: #333333;
 	padding: 20px 0 0 18px;
+	font-family: 'Lato', sans-serif;
 }
 .author-button{
 	top: 2655px !important;
@@ -760,7 +757,140 @@ strike{
 
 
 
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.form {
+    padding: 20px 20px;
 
+}
+.signupinput{
+	margin: auto;
+	padding-left: 28%;
+
+	
+
+}
+.signupbutton{
+	padding: 13px;
+	margin-right: 4px;
+	background-color: #fff;
+	color: #0397d3;
+	border:1px solid #0397d3;
+	box-shadow: 0px 3px 6px -4px #a2a2a2;
+	border-radius: 3px;
+
+}
+.signupbutton:hover{
+	background-color: #0397d3 !important;
+	color: #fff;
+}
+
+.signupbutton-f{
+	color: #E26A6A !important;
+	border:1px solid #E26A6A !important;
+	box-shadow: 0px 3px 6px -4px #a2a2a2;
+	border-radius: 3px;
+
+}
+.signupbutton-f:hover{
+	background-color: #E26A6A !important;
+	color: #fff !important;
+}
+input:focus {
+  border: 1px solid #0397d3 !important;
+  box-shadow: 0px 3px 6px -4px #0397d3 !important;
+}
+
+.enteremail{
+	padding: 13px;
+	width: 365px;
+	margin-right: 5px;
+	border: 1px solid #ced4da;
+	border-radius: 3px;
+	
+}
+
+.subscribe{
+	height: 173px;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	justify-content: center;
+	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
+
+}
+.sub-title{
+	font-size: 20px;
+	word-spacing: 3px;
+	color: #333333;
+	text-align: center;
+	padding: 10px 0px;
+}
+.b-sub{
+	font-size: 26px;
+	color: #33c24d;
+}
+
+.helpsection{
+	height: 109px;
+	justify-content: space-between;
+}
+
+.img-helpsec{
+	height: 34px;
+	margin: 23px 10px 0 0px;
+}
+
+.help{
+	width: 30%;
+}
+.pay{
+	width: 25%;
+}
+.service{
+	width: 24%;
+}
+.return{
+	width: 17%;
+}
+.help-title{
+	color: #333333;
+	font-size: 15px;
+  padding: 23px 0 0 0;
+	margin: 0;
+}
+
+.help-des{
+	color: #666666;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+}
+
+.recentview{
+	height: 225px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.img-recentview{
+	height: 145px;
+	width: 105px;
+	padding-left: 54px;
+	padding-right: 80px;
+}
+
+.img-recentview2{
+	height: 103px;
+	width: 102px;
+	padding-right: 15px;
+}
+.rview-title {
+    font-size: 22px;
+    color: #333333;
+    padding: 10px 0 0 18px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+}
 
 
 
@@ -780,6 +910,195 @@ strike{
 /************************************************
 				 Footer CSS Start
 *************************************************/
+
+.footermain{
+  background-color: #fff;
+  padding: 30px 0;
+}
+.foot-sec1{
+  width: 25%;
+}
+.logo{
+  width: 108px;
+  margin: 0;
+}
+.logo-img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.callcenter-icon{
+  width: 22px;
+  height: 24px;
+  padding-top: 9px;
+}
+
+.hotline{
+  font-size: 12px;
+  font-weight: 400;
+  font-family:  'Lato', sans-serif;
+  color: #666;
+  margin: 0;
+  line-height: 19px;
+}
+.hotline-box{
+  padding-top: 9px;
+  padding-left: 9px;
+}
+.number P{
+  font-size: 13px;
+  font-weight: 400;
+  font-family:  'Lato', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 2px 0 0 7px;
+}
+.sec1-row1{
+  margin-top: 14px;
+}
+.number h3{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  font-family:  'Lato', sans-serif;
+  color: #333;
+  padding: 6px 0 0 7px;
+}
+.cor{
+  padding-top: 28px;
+}
+
+.cor-icon{
+  padding-top: 33px;
+}
+
+.env{
+  width: 22px;
+  height: 15px;
+  padding-top: 13px;
+}
+.sec1-row2{
+  margin-top: 5px;
+}
+
+.conn{
+  margin: 30px 0 10px 0;
+  font-size: 15px;
+  font-weight: 700;
+  font-family:  'Lato', sans-serif;
+  color: #333;
+}
+
+
+.f-sec2{
+  width: 16.66%;
+  /margin: auto;/
+}
+.foot-title{
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  /line-height: 18px/
+}
+
+.circle{
+    font-size: 8px;
+    padding-right: 5px;
+    position: relative;
+    top: -1.6px;
+}
+
+.f-sec2 ul li{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 18px;
+  color: #333;
+  padding: 2px 0;
+  letter-spacing: .3px;
+}
+.foot-title2{
+  margin-top: 20px;
+}
+.sec2-r2{
+  margin-top: 85px;
+}
+.f-sec6{
+  width: 25%;
+}
+
+.f-sec6 h2{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  /line-height: 18px/
+}
+.down-sec h3{
+  margin: 10px 0 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+.down-sec img{
+  width: 42px;
+  height: 42px;
+}
+.down-sec{
+  margin: 10px 0;
+}
+
+.footer-paymentvia{
+  justify-content: center;
+}
+hr{
+    border-width: 0;
+    height: 1px;
+    background-color: #d0cdcd;
+}
+.footer-paymentvia p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+.footer-des p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 91%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+.copyright{
+  background-color: #F1F2F4;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333;
+  padding: 15px 0;
+}
+
+.kothahobeto{
+	background-color: #FF9900;
+	height: 41px;
+	width: 208px;
+	position: fixed;
+	top: 584px;
+    right: 30px;
+    border-radius: 3px;
+}
+
+.kothahobeto p{
+	color: #fff;
+}
+
+
+
 
 
 /************************************************
