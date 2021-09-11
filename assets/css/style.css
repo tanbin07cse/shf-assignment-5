@@ -46,7 +46,10 @@ li{
 	font-size: 22px;
 }
 
-
+/*section{
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}*/
 
 
 /************************************************
@@ -182,7 +185,7 @@ form.example::after {
 }
 
 .mainmenu-ul{
-	margin-left: 162px !important;
+	margin-left: 159px !important;
 	margin-right: 0 !important;
 }
 .giftfinder{
@@ -216,7 +219,7 @@ form.example::after {
 }
 .fullbody{
 	width: 100%;
-	height: 3500px;
+	height: 7558px;
 	background-color: #F1F2F4;
 }
 
@@ -225,6 +228,7 @@ form.example::after {
 	height: 223px;
 	position: relative;
 	top: 20px;
+	background-size: 1146px 222px;
 }
 
 .img-bmenu1{
@@ -238,10 +242,14 @@ form.example::after {
 
 .recentsold{
 	justify-content: space-evenly;
-	height: 425px;
+	height: 439px;
 	background-color: #fff;
 	margin-left: 5px;
 	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
+}
+
+.newbooks{
+	height: 487px !important;
 }
 
 .left-arrow{
@@ -262,7 +270,7 @@ box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
 .right-arrow{
 position: absolute;
 top: 752px;
-left: 89.8%;
+left: 89.6%;
 font-size: 44px !important;
 padding: 18px 11px;
 border-top-right-radius: 4px;
@@ -319,7 +327,7 @@ box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
 .look-inside{
 	position: relative;
 	top: -69px;
-  left: 71px;
+  left: 89px;
 }
 .badge-inside{
 	position: relative;
@@ -461,6 +469,11 @@ strike{
 	/*box-shadow: 0px -1px 2px #b9b9b9;*/
 	box-shadow: -2px 2px 12px -2px rgb(0 0 0 / 30%);
 }
+
+.button5{
+	height: 190px;
+}
+
 .button-5-1{
 	text-align: center;
 	/*width: 25%;*/
@@ -530,15 +543,91 @@ strike{
 	font-size: 24px !important;
 
 }
+.bongobondhu{
+	padding-bottom: 34px !important;
+  margin-top: -46px !important;
+}
+.skhasina{
+	margin-top: -134px !important;
+	height: 484px;
+}
+
+
+.want-to-buy-button{
+	top: 2120px !important;
+}
+.bongobondhu-button{
+	top: 2575px !important;
+}
+
+.button-6-1{
+	padding-left: 79px !important;
+	padding-right: 79px !important;
+}
+.button-6-2{
+	padding-left: 70px !important;
+	padding-right: 70px !important;
+}
+
+.button-6-3{
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+}
+.button-6-4{
+	padding-left: 21px !important;
+	padding-right: 21px !important;
+}
+
+.shasina-button{
+	top: 3189px !important;
+}
+
+.best-sell-button{
+	top: 3951px !important;
+}
+.extra-disc-button{
+	top: 4588px !important;
+}
+
+.pidilite{
+	margin-top: 0px !important;
+	height: 526px;
+}
+
+.pidilite-button{
+	top: 5226px !important;
+}
+
+.covid19{
+	margin-top: 45px !important;
+	height: 481px;
+}
+
+.covid-button{
+  top: 5921px !important;
+
+}
+
+.calculator{
+	margin-top: -35px !important;
+	height: 481px;
+}
+
+.calc-button{
+	top: 6567px !important;
+}
+
+
 .sciencefiction{
 	padding-bottom: 34px !important;
+	margin-top: 36px !important;
 
 }
 .sfic1{
 	width: 19.5% !important;
 }
 .sfarrow{
-	top: 1592px !important;
+	top: 1655px !important;
 }
 .sf-title{
 	font-weight: 500;
@@ -566,7 +655,7 @@ strike{
 .floatingbutton{
     position: fixed;
     top: 221px;
-    right: 20px;
+    right: 33px;
     width: 51px;
     height: 88px;
     border-radius: 3px;
@@ -575,7 +664,7 @@ strike{
 .img-float{
 	  position: fixed;
     top: 244px;
-    right: 30px;
+    right: 43px;
 }
 .booknum{
 
@@ -586,7 +675,7 @@ strike{
   background-color: #D64541;
   position: fixed;
   top: 235px;
-  right: 33px;
+  right: 38px;
   text-align: center;
   font-size: 14px;
 }
@@ -696,9 +785,50 @@ strike{
   font-weight: 700;
 }
 
+.leftsidebutton:hover{
+	color:  #0397D3;
+}
+
+.bestsellbadge{
+    position: relative;
+    top: -234px;
+    right: 68px;
+}
+.button7{
+	height: 70px !important;
+}
+
+
+.button-7-1{
+	padding-left: 18px !important;
+	padding-right: 18px !important;
+}
+.button-7-2{
+	padding-left: 18px !important;
+	padding-right: 18px !important;
+}
+.button-7-3{
+	padding-left: 91px !important;
+	padding-right: 91px !important;
+}
+.button-7-4{
+	padding-left: 35px !important;
+	padding-right: 35px !important;
+}
+.button-7-5{
+	padding-left: 35px !important;
+	padding-right: 35px !important;
+}
+
+.youtube{
+	margin-top: -13px !important;
+	height: 152px;
+  margin-bottom: 15px !important;
+  justify-content: space-between;
+}
 .ytrokomari{
-	height: 160px;
-	margin-top: 15px !important;
+	height: 152px;
+	margin-top: -25px !important;
 	margin-bottom: 15px !important;
 	justify-content: space-between;
 
@@ -709,7 +839,7 @@ strike{
 }
 
 .img-extra{
-	width: 1147px;
+	width: 1132px;
 	border-radius: 3px;
 	margin-top: 15px !important;
 	margin-bottom: 15px !important;
@@ -717,6 +847,7 @@ strike{
 
 .topauthor{
 	height: 274px !important;
+	margin-top: -31px !important;
 	
 }
 .authordiv{
@@ -752,7 +883,7 @@ strike{
 	font-family: 'Lato', sans-serif;
 }
 .author-button{
-	top: 2655px !important;
+	top: 7017px !important;
 }
 
 
@@ -797,14 +928,20 @@ input[type=submit]:hover {
 	background-color: #E26A6A !important;
 	color: #fff !important;
 }
-input:focus {
+/*input:focus {
   border: 1px solid #0397d3 !important;
-  box-shadow: 0px 3px 6px -4px #0397d3 !important;
+  box-shadow: 0px 3px 6px -4px #0397d3 !important;*/
+  
+  input:focus {
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+  outline: none;
+  border: none;
+
 }
 
 .enteremail{
-	padding: 13px;
-	width: 365px;
+	padding: 14px !important;
+	width: 365px !important;
 	margin-right: 5px;
 	border: 1px solid #ced4da;
 	border-radius: 3px;
@@ -871,7 +1008,9 @@ input:focus {
 	height: 225px;
 	background-color: #fff;
 	margin-top: 10px;
+	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
 }
+
 .img-recentview{
 	height: 145px;
 	width: 105px;
@@ -898,14 +1037,6 @@ input:focus {
 				 Home CSS Ends
 *************************************************/
 
-/************************************************
-				 CSS Start
-*************************************************/
-
-
-/************************************************
-				 CSS Ends
-*************************************************/
 
 /************************************************
 				 Footer CSS Start
@@ -1089,18 +1220,280 @@ hr{
 	width: 208px;
 	position: fixed;
 	top: 584px;
-    right: 30px;
-    border-radius: 3px;
+  right: 30px;
+  border-radius: 3px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .kothahobeto p{
 	color: #fff;
+	z-index: 1;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	text-align: center;
+	padding: 10px 0 15px 8px;
+	margin: 0;
 }
-
+.chaticon{
+	font-size: 22px !important;
+}
 
 
 
 
 /************************************************
 				 Footer CSS Ends
+*************************************************/
+
+/************************************************
+				 Product detail CSS Start
+*************************************************/
+
+.prodetail-all{
+	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
+	width: 100%;
+	height: 463px;
+	margin: 15px 0 35px 0;
+	padding: 0px 0 14px 0;
+
+}
+
+.prodetail-col1{
+	width: 35%;
+	height: 463px;
+	background-color: #fff;
+	margin: 15px 0 35px 0;
+	
+}
+.img-prodetail{
+	width: 241px;
+	height: 320px;
+	border: 1px solid #CDCDCD;
+	padding: 35px;
+	margin: 35px;
+}
+.prodetail-col2{
+	width: 40%;
+	height: 463px;
+	background-color: #fff;
+	margin: 15px 0 35px 0;
+	/*box-shadow: 0px 4px 0px -2px rgb(0 0 0 / 30%);*/
+}
+.prodetail-title{
+	padding-top: 50px;
+	color: #333333;
+	font-size: 19px;
+}
+.product-by a{
+	text-decoration: none;
+	color: #0397D3 !important;
+	font-size: 14px;
+}
+.product-category{
+	text-decoration: none;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+
+.product-category a{
+	text-decoration: none;
+	color: #0397D3 !important;
+	font-size: 13px;
+}
+.product-strike{
+	color: #666666;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'Lato', sans-serif;
+}
+.product-price{
+	color: #333333;
+	font-size: 21px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+}
+.product-span{
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+	color: #808080;
+	padding-left: 10px;
+
+}
+
+.wishlist{
+  color: #808080;
+  padding: 5px;
+}
+.share{
+  color: #808080;
+  padding: 5px;
+}
+
+.product-cart{
+	background-color: #FF9900;
+  width: 50%;
+  padding: 13px 15px 13px 15px;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+
+
+}
+
+.prodetail-col3{
+	width: 25%;
+	height: 463px;
+	background-color: #F6F6F6;
+	margin: 15px 0 35px 0;
+	padding-left: 20px;
+  /*box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);*/
+}
+
+.col3-cash{
+	font-size: 14px !important;
+	font-weight: 600 !important;
+	width: 200px;
+	padding-left: 10px;
+	color: #808080;
+}
+
+.img-col-3{
+	height: 20px !important;
+	width: 20px !important;
+	color: #808080;
+}
+.prodetail{
+	/*height: 463px;*/
+	box-shadow: 0px 4px 6px -2px rgb(0 0 0 / 30%);
+}
+
+
+.prospec{
+	background-color: #fff;
+	margin-bottom: 0;
+}
+.report-info{
+	color: red;
+	font-size: 14px;
+}
+.product-spec{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.product-spec-title{
+	font-size: 22px !important;
+	font-family: 'Lato', sans-serif;
+	color: #333333;
+	padding: 45px 0 10px 30px !important;
+}
+
+.spec-menu{
+	padding-left: 0px !important;
+	margin-left: 20px !important;
+	font-size: 14px !important;
+	font-family: 'Lato', sans-serif;
+}
+.prod-summary{
+	padding: 8px 14px 14px 14px;
+    border-top: 10px solid #33C24D;
+    border-right: 1px solid #DEE2E6;
+    border-left: 1px solid #DEE2E6;
+    border-bottom-color: white;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    z-index: 1;
+}
+.prod-summary-others{
+	position: relative;
+  top: 16px !important;
+}
+.spec-hr{
+	border-color: #DEE2E6 !important;
+}
+.lekharman{
+	color: #555555;
+	padding-left: 24px;
+	font-size: 15px !important;
+}
+.lekharman a{
+text-decoration: none;
+color: #17A2B8 !important;
+}
+
+.report-info{
+	text-align: justify;
+	padding-left: 40%	;
+	margin-bottom: 20px;
+}
+
+.p-report-info{
+	padding-bottom: 10px;
+	padding-top: 0px;
+}
+.also-bought{
+	top: 1224px !important;
+}
+
+.reviewrating{
+	height: 300px;
+	background-color: #fff;
+	margin-top: -9px !important;
+	/*padding-left: 15px;*/
+}
+.review-title{
+	padding: 15px 0 15px 15px;
+}
+
+.writeques-p{
+	float: right;
+}
+
+.product-sold{
+	position: relative;
+	top: 36px !important;
+}
+.product-sold-arrow{
+	top: 170px !important;
+}
+
+.product-help{
+	position: relative;
+	top: 242px !important;
+}
+
+.product-recent-view{
+		position: relative;
+	top: -83px !important;
+}
+.fullbody-product{
+	height: 2700px !important;
+}
+
+.product-footer{
+	margin-top: -296px !important;
+}
+
+.p-haveques{
+	padding-left: 15px;
+
+}
+
+
+
+
+
+
+
+
+/************************************************
+				 Product detail CSS Ends
 *************************************************/
